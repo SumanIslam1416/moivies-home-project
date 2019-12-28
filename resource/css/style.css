@@ -1,0 +1,277 @@
+/*===================
+    Basic  style
+  ===================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: 'Asap', sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #ededed;
+}
+/*============================
+    Reuseable component style
+  ============================*/
+a{
+  color: #111;
+  text-decoration: none;
+}
+/*============================
+    start the  header style
+  ============================*/
+.site-info{
+  background-color: #111;
+  color: #fff;
+  height: 270px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.site-title{
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.site-description{
+  font-size: 90%;
+  font-style: italic;
+  color: #F6D200;
+  line-height: 0.6;
+}
+.main-nav{
+  background-color: #F6D200;
+}
+.main-nav a{
+  color: #111;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  font-size: 90%;
+  font-weight: 900;
+}
+.main-nav a:hover{
+  background-color: #111;
+  color: #F6D200;
+}
+
+/*=======================================
+    start the  main content area style
+  =======================================*/
+
+.posts{
+  background-color: #ededed;
+}
+.post{
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.posts img{
+  display: block;
+  width: 100%;
+}
+.post-content{
+  display: block;
+  padding: 0 40px 20px;
+}
+.post-content h2{
+  background-color: #F6D200;
+  font-size: 150%;
+  font-weight: 400;
+  padding: 20px;
+  margin: 0 -40px;
+  text-align: center;
+}
+.post-content p{
+  padding-top: 1.5rem;
+  font-size: 85%;
+}
+/*=======================================
+    start the  watch section style
+  =======================================*/
+.watch{
+  margin-bottom: 1rem;
+}
+.watch-header{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.watch-image img{
+  display: block;
+  width: 100%;
+}
+.watch-content{
+  background-color: #111;
+  color: #fff;
+  padding: 4rem 2.5rem;
+}
+.movie-info span{
+  padding-right: 1rem;
+  font-size: 95%;
+}
+.movie-story{
+  font-size: 90%;
+  padding: 1rem 0;
+}
+.movie-info a{
+  background-color: #F6D200;
+  color: #111;
+  padding: .5rem 1rem;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.movie-info a:hover{
+  background-color: #ffe134;
+}
+
+/*=======================================
+    start the  download section style
+  =======================================*/
+.download-header{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.download-image img{
+  width: 100%;
+  height: 100%;
+}
+.download-description{
+  margin-top: -8px;
+}
+.download-description a{
+  display: block;
+  background-color: black;
+  color: #fff;
+  padding: .5rem 1.5rem;
+  text-align: center;
+}
+ion-icon{
+  font-size: 56px;
+}
+.download-info{
+  padding: 1rem 2rem;
+}
+.download-genre{
+  display: flex;
+  padding: 0 0 .8rem 0;
+}
+.download-genre h4{
+  margin-right: 6rem;
+  font-size: 90%;
+}
+.download-genre p{
+  font-size: 80%;
+}
+.download-cast{
+  display: flex;
+  align-items: center;
+}
+.download-cast h4{
+  margin-right: 6.2rem;
+  font-size: 90%;
+}
+.download-cast img{
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+.download-rating{
+  background-color: #F6D200;
+  color: #111;
+  padding: 1rem 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.download-rating span{
+  font-size: 80%;
+}
+.download-rating .rating{
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/*=======================================
+    start the  gallery section style
+  =======================================*/
+.gallery-header{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.gallery-images{
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+}
+.gallery-image{
+  height: 250px;
+  flex-grow: 1;
+  margin: 0 0 8px 8px;
+}
+.gallery-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-image:nth-child(4n+1){
+  flex-basis: 250px;
+}
+.gallery-image:nth-child(4n+2){
+  flex-basis: 325px;
+}
+.gallery-image:nth-child(4n+3){
+  flex-basis: 180px;
+}
+.gallery-image:nth-child(4n+4){
+  flex-basis: 380px;
+}
+
+/*=======================================
+    start the  sub are  style
+  =======================================*/
+.sub-area{
+  background-color:#EdEdEd;
+  color: black;
+}
+.widget{
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+.widget-content{
+  padding: 1rem 1.5rem;
+}
+.widget-content h3{
+  margin: .5rem 0;
+}
+.widget nav ul{
+  list-style-type: none;
+  padding-left: 1rem;
+}
+.widget nav ul li a{
+  display: block;
+  padding-bottom: .4rem;
+  font-size: 80%;
+  font-weight: 700;
+}
+/*==============================
+    start the  footer style
+  ==============================*/
+footer{
+  background-color: black;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 90%;
+}

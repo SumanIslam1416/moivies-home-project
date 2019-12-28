@@ -1,0 +1,187 @@
+/*============================
+    start header media query
+  ============================*/
+@media screen and (min-width:1025px){
+  .site-info{height: 350px;}
+  .site-title{
+    font-size: 3.5rem;
+    font-weight: 300;
+  }
+  .site-description{
+    font-size: 120%;
+  }
+  .main-nav{
+    display: flex;
+  }
+  .main-nav a{
+    padding: 10px;
+  }
+}
+@media screen and (max-width:1024px){
+  .site-info{height: 350px;}
+  .site-title{
+    font-size: 3.2rem;
+    font-weight: 300;
+  }
+  .site-description{
+    font-size: 120%;
+  }
+  .main-nav{
+    display: flex;
+  }
+  .main-nav a{
+    padding: 10px;
+  }
+}
+@media screen and (max-width:768px){
+  .site-title{
+    font-size: 2.7rem;
+  }
+  .site-description{
+    font-size: 100%;
+  }
+  .main-nav{
+    display: flex;
+  }
+}
+@media screen and (max-width:425px){
+  .site-info{ height: 230px;}
+  .site-title{
+    font-size: 1.6rem;
+    font-weight: normal;
+  }
+  .site-description{
+    font-size: 80%;
+  }
+}
+  
+/*=======================================
+    Start main content area media query
+  =======================================*/
+@media screen and (min-width:800px){
+  main{
+    display: flex;
+  }
+  .main-area{
+    flex: 1 1 80%;
+    padding: 1.5rem;
+  }
+  .sub-area{
+    flex: 1 1 20%;
+    padding: .5rem;
+  }
+  .posts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .post-half{
+    flex-basis: 48.5%;
+  }
+  .ph{
+    flex-basis: 48.5%;
+  }
+  .ph-content h2{
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 114%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+}
+@media screen and (min-width:1025px){
+  main{
+    display: flex;
+  }
+  .main-area{
+    flex: 1 1 70%;
+    padding: 1.5rem;
+  }
+  .sub-area{
+    flex: 1 1 30%;
+    padding: 1.5rem;
+  }
+  .posts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .post-half{
+    flex-basis: 48.5%;
+  }
+  .post-one-third{
+    flex-basis: 32%;
+  }
+  .post-full{
+    flex-basis: 100%;
+  }
+  .ph-content h2{
+    text-align: left;
+    font-size: 125%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+
+}
+
+/*=====================================
+    Start watch section media query
+  =====================================*/
+@media screen and (min-width:800px){
+  .watch-card{
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .watch-image{
+    flex-basis: 120%;
+  }
+  .watch-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .img-right{
+    order: 2;
+  }
+}
+
+/*=====================================
+    Start download section media query
+  =====================================*/
+@media screen and (min-width:800px){
+  .download-card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .download-description{
+    display: flex;
+  }
+  .download-description a{
+    flex: 1 1 20%;
+  }
+  .download-info{
+    flex: 1 1 60%;
+  }
+  .download-rating{
+    flex: 1 1 20%;
+  }
+}
+@media screen and (max-width:600px){
+  .download-cast{
+    flex-flow: row wrap;
+  }
+}
+
+/*=========================================
+    Start sub area section media query
+  =========================================*/
+@media screen and (min-width:600px) and (max-width:799px){
+  .sub-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .widget{
+    flex-basis: 48.8%;
+  }
+}
